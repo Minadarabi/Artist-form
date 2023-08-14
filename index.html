@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="https://httpbin.org/form" method="post">
+        
+        <label for="">
+            Name:
+            <input type="text" name="name" placeholder="your name">
+        </label>
+        <label for="">
+            Email:
+            <input type="text" name="email" placeholder="your email address">
+        </label>
+        <label for="">
+            phone:
+            <input type="text" name="phone" placeholder="your phone number">
+        </label>
+        
+           <li>1. what's your favourite music artist?</li>
+            <input type="text" name="artistname" placeholder="Your Artist">
+
+       <li>2. What's your favourite genre?</li>
+        <select name="genre" id="">
+            
+            <option value="">Pop Music</option>
+            <option value="">Rock</option>
+            <option value="">Jazz</option>
+            <option value="">Classical Music</option>
+        </label>
+        </select>
+      
+            <li>3. why you like this genre?</li>
+            <textarea name="" id="" cols="30" rows="4" placeholder="say something..."></textarea>
+        </label>
+        <div class="btns">
+            <button class="submit">Submit</button>
+            <button class="reset">Reset</button>
+
+        </div>
+    
+    </form>
+    
+</body>
+</html>
